@@ -1,71 +1,71 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    a {
-        color: #161209;
-        text-decoration: none;
-    }
-    
-    a:hover {
-        color: #2d96bd;
-    }
-    
-    ul {
-        list-style: none;
-    }
-    
-    .navbar {
-        height: 4rem;
-        line-height: 4rem;
-        width: 100%;
-    }
-    
-    nav {
-        display: block;
-    }
-    
-    .navbar .nav-container {
-        width: auto;
-        max-width: 1200px;
-        text-align: center;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .navbar .menu a {
-        padding: 0 8px;
-    }
-    
-    .main {
-        flex: 1 0 auto;
-    }
-    
-    .container {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-    
-    .profile {
-        text-align: center;
-        padding-top: 10%;
-    }
-    
-    .avatar {
-        border-radius: 50%;
-        justify-content: center;
-    }
-    
-    .profile .avatar img {
-        width: 15%;
-        height: auto;
-        border-radius: 50%;
-        margin: 0 auto;
-    }
-    
-    .social {
-        padding-top: 2%;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        a {
+            color: #161209;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #2d96bd;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        .navbar {
+            height: 4rem;
+            line-height: 4rem;
+            width: 100%;
+        }
+        
+        nav {
+            display: block;
+        }
+        
+        .navbar .nav-container {
+            width: auto;
+            max-width: 1200px;
+            text-align: center;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .navbar .menu a {
+            padding: 0 8px;
+        }
+        
+        section {
+            height: 100vh;
+        }
+        
+        .container {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+        
+        .profile {
+            text-align: center;
+            padding-top: 10%;
+        }
+        
+        .avatar {
+            border-radius: 50%;
+            justify-content: center;
+        }
+        
+        .profile .avatar img {
+            width: 15%;
+            height: auto;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        
+        .social {
+            padding-top: 2%;
+        }
