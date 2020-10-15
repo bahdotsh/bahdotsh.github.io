@@ -38,15 +38,16 @@
             
             .navbar-header {
                 padding-left: 8px;
+                font-size: 150%;
             }
             
             .navbar .menu a {
-                padding: 0 8px;
+                padding: 0 18px;
             }
             
             .navbar .menu img {
                 width: 30%;
-                padding-top: 4;
+                padding-top: 18px;
             }
             
             section {
@@ -152,6 +153,14 @@
                     min-width: 60%;
                     height: auto;
                 }
+                .navbar-header {
+                    padding: 25px;
+                    font-size: 300%;
+                }
+                .navbar .menu img {
+                    width: 60%;
+                    padding-top: 25px;
+                }
             }
             /* Tabled Portrait */
             
@@ -167,5 +176,13 @@
                 .profile .avatar img {
                     min-width: 60%;
                     height: auto;
+                }
+                .navbar-header {
+                    padding: 25px;
+                    font-size: 300%;
+                }
+                .navbar .menu img {
+                    width: 60%;
+                    padding-top: 25px;
                 }
             }
