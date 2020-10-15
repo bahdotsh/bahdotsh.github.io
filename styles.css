@@ -40,6 +40,11 @@
                 padding: 0 8px;
             }
             
+            .navbar .menu img {
+                width: 30%;
+                padding-top: 4;
+            }
+            
             section {
                 height: 100vh;
             }
@@ -114,4 +119,19 @@
             .hover01 figure:hover img {
                 -webkit-transform: scale(1.2);
                 transform: scale(1.2);
+            }
+            
+            .dark-mode {
+                background-color: #292a2d;
+                color: #a9a9b3;
+            }
+            
+            .dark-mode a {
+                color: #a9a9b3;
+                text-decoration: none;
+            }
+            
+            .dark-mode a:hover {
+                color: #fff;
+                text-decoration: none;
             }
