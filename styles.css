@@ -36,6 +36,10 @@
                 justify-content: space-between;
             }
             
+            .navbar-header {
+                padding-left: 8px;
+            }
+            
             .navbar .menu a {
                 padding: 0 8px;
             }
@@ -134,4 +138,34 @@
             .dark-mode a:hover {
                 color: #fff;
                 text-decoration: none;
+            }
+            
+            @media screen and (max-width: 1060px) {
+                #primary {
+                    width: 67%;
+                }
+                #secondary {
+                    width: 30%;
+                    margin-left: 3%;
+                }
+                .profile .avatar img {
+                    min-width: 60%;
+                    height: auto;
+                }
+            }
+            /* Tabled Portrait */
+            
+            @media screen and (max-width: 768px) {
+                #primary {
+                    width: 100%;
+                }
+                #secondary {
+                    width: 100%;
+                    margin: 0;
+                    border: none;
+                }
+                .profile .avatar img {
+                    min-width: 60%;
+                    height: auto;
+                }
             }
