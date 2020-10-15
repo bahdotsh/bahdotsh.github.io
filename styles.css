@@ -1,71 +1,117 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        a {
-            color: #161209;
-            text-decoration: none;
-        }
-        
-        a:hover {
-            color: #2d96bd;
-        }
-        
-        ul {
-            list-style: none;
-        }
-        
-        .navbar {
-            height: 4rem;
-            line-height: 4rem;
-            width: 100%;
-        }
-        
-        nav {
-            display: block;
-        }
-        
-        .navbar .nav-container {
-            width: auto;
-            max-width: 1200px;
-            text-align: center;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .navbar .menu a {
-            padding: 0 8px;
-        }
-        
-        section {
-            height: 100vh;
-        }
-        
-        .container {
-            padding-left: 1em;
-            padding-right: 1em;
-        }
-        
-        .profile {
-            text-align: center;
-            padding-top: 10%;
-        }
-        
-        .avatar {
-            border-radius: 50%;
-            justify-content: center;
-        }
-        
-        .profile .avatar img {
-            width: 15%;
-            height: auto;
-            border-radius: 50%;
-            margin: 0 auto;
-        }
-        
-        .social {
-            padding-top: 2%;
-        }
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            a {
+                color: #161209;
+                text-decoration: none;
+            }
+            
+            a:hover {
+                color: #2d96bd;
+            }
+            
+            ul {
+                list-style: none;
+            }
+            
+            .navbar {
+                height: 4rem;
+                line-height: 4rem;
+                width: 100%;
+            }
+            
+            nav {
+                display: block;
+            }
+            
+            .navbar .nav-container {
+                width: auto;
+                max-width: 1200px;
+                text-align: center;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .navbar .menu a {
+                padding: 0 8px;
+            }
+            
+            section {
+                height: 100vh;
+            }
+            
+            .container {
+                padding-left: 1em;
+                padding-right: 1em;
+            }
+            
+            .profile {
+                text-align: center;
+                padding-top: 10%;
+            }
+            
+            .avatar {
+                border-radius: 50%;
+                justify-content: center;
+            }
+            
+            .profile .avatar img {
+                width: 10%;
+                height: auto;
+                border-radius: 10%;
+                margin: 0 auto;
+            }
+            
+            .social {
+                padding-top: 2%;
+            }
+            
+            @keyframes hvr-buzz {
+                50% {
+                    -webkit-transform: translateX(3px) rotate(2deg);
+                    transform: translateX(3px) rotate(2deg);
+                }
+                100% {
+                    -webkit-transform: translateX(-3px) rotate(-2deg);
+                    transform: translateX(-3px) rotate(-2deg);
+                }
+            }
+            
+            .hvr-buzz {
+                display: inline-block;
+                vertical-align: middle;
+                -webkit-transform: perspective(1px) translateZ(0);
+                transform: perspective(1px) translateZ(0);
+                box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+                padding-right: 5px;
+            }
+            
+            .hvr-buzz:hover,
+            .hvr-buzz:focus,
+            .hvr-buzz:active {
+                -webkit-animation-name: hvr-buzz;
+                animation-name: hvr-buzz;
+                -webkit-animation-duration: 0.15s;
+                animation-duration: 0.15s;
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+            }
+            
+            .hover01 figure img {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                transition: .3s ease-in-out;
+                cursor: pointer;
+            }
+            
+            .hover01 figure:hover img {
+                -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+            }
