@@ -213,7 +213,7 @@ function addBorrowedObject(obj) {
 }
 function __wbg_adapter_18(arg0, arg1, arg2) {
     try {
-        wasm._dyn_core__ops__function__FnMut___A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h2d9d0a3ddda3ac44(arg0, arg1, addBorrowedObject(arg2));
+        wasm._dyn_core__ops__function__FnMut___A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hc5cec7428a58b0b3(arg0, arg1, addBorrowedObject(arg2));
     } finally {
         heap[stack_pointer++] = undefined;
     }
@@ -537,7 +537,7 @@ function getImports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper136 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper137 = function(arg0, arg1, arg2) {
         const ret = makeMutClosure(arg0, arg1, 43, __wbg_adapter_18);
         return addHeapObject(ret);
     };
@@ -575,7 +575,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('portfolio-ecd65a022e34ba64_bg.wasm', import.meta.url);
+        input = new URL('bahdotsh-github-io-5b50b5c7d7e56d01_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
