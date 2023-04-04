@@ -1,5 +1,5 @@
 [package]
-name = "bahdotsh.github.io"
+name = "portfolio"
 version = "0.1.0"
 edition = "2021"
 homepage = "https://github.com/bahdotsh/bahdotsh.github.io"
