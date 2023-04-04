@@ -34,8 +34,10 @@ impl Component for Home {
                         <p> { " Sometimes I have my rants on the world and life, " }
                         <a href={ "https://medium.com/@gokulsanthoshofficial"} target={"_blank"}>{"here"}</a> {","} { " and
                           on tech, " } <a href={ "https://blog.gokuls.in"} target={"_blank"}>{"here"}</a> {"."}</p>
-                        <p> { " Connect me on " } <a href={ "https://twitter.com/bahdotshx"} target={"_blank"}>{"twitter"}</a> { " or send me a hi on "}
-                        <a href={ "mailto:gokulsanthoshofficial@gmail.com"} target={"_blank"}>{"mail"}</a> {"."}</p>
+                        <p> { " I'm always happy to chat with fellow enthusiasts, so don't hesitate to drop
+			 me a " } <a href={ "mailto:gokulsanthoshofficial@gmail.com"} target={"_blank"}>{"mail"}</a> {","} { " or connect with me on " } 
+			<a href={ "https://twitter.com/bahdotshx"} target={"_blank"}>{"twitter"}</a> {" or "} 
+			<a href={"https://www.linkedin.com/in/gokul-santhosh/"} target={"_blank"}> {"LinkedIn"}</a> {"."} </p>
                </div>
         }
     }

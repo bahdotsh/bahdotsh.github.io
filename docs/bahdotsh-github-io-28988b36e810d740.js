@@ -575,7 +575,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('bahdotsh-github-io-5b50b5c7d7e56d01_bg.wasm', import.meta.url);
+        input = new URL('bahdotsh-github-io-28988b36e810d740_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
