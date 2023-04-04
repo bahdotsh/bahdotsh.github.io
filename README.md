@@ -49,4 +49,4 @@ You can also pass the `--release` flag to `trunk serve` if you need to get every
 Unless overwritten, the output will be located in the `dist` directory. 
 
 
-###Page style inspired from Evan You's personal [https://evanyou.me/](website).
+###Page style inspired from Evan You's personal [website](https://evanyou.me/).
