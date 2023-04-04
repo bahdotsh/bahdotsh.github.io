@@ -2,6 +2,8 @@
 name = "bahdotsh.github.io"
 version = "0.1.0"
 edition = "2021"
+homepage = "https://github.com/bahdotsh/bahdotsh.github.io"
+repository = "https://github.com/bahdotsh/bahdotsh.github.io"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
