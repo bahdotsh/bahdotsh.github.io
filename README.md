@@ -4,7 +4,7 @@ A small static hosted on Github Pages to serve as a blog and portfolio of the pr
 
 ## Usage
 
-For a more thorough explanation of Trunk and its features, please head over to the [repository][trunk].
+For a more thorough explanation of Trunk and its features, please head over to the [repository](https://github.com/thedodd/trunk).
 
 ### Installation
 
@@ -49,4 +49,4 @@ You can also pass the `--release` flag to `trunk serve` if you need to get every
 Unless overwritten, the output will be located in the `dist` directory. 
 
 
-###Page style inspired from Evan You's personal [website](https://evanyou.me/).
+* Page style inspired from Evan You's personal [website](https://evanyou.me/).
