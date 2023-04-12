@@ -1,6 +1,6 @@
 ---
 external: false
-title: "How does the blockchain work? Part 1"
+title: "How does the blockchain work? Part 2"
 description: ""
 date: 2020-08-02
 ---
