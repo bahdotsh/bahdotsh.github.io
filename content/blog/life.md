@@ -1,7 +1,7 @@
 ---
 external: false
 title: "Life"
-description: " "
+description: "Life!"
 date: 2018-10-15
 ---
 

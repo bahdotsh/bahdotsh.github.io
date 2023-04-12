@@ -1,7 +1,7 @@
 ---
 external: false
 title: "Death"
-description: " "
+description: "From the perspective of Death"
 date: 2018-06-11
 ---
 

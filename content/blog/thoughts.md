@@ -1,7 +1,7 @@
 ---
 external: false
 title: "Are your thoughts really yours?"
-description: " "
+description: "Are your thoughts really yours?"
 date: 2020-08-04
 ---
 

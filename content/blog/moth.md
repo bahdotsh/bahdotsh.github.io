@@ -1,7 +1,7 @@
 ---
 external: false
 title: "The Moth"
-description: " "
+description: "The moth's perspective! "
 date: 2018-05-16
 ---
 

@@ -1,7 +1,7 @@
 ---
 external: false
 title: "Random rant about silence"
-description: " "
+description: "Rant about silence!"
 date: 2020-02-06
 ---
 

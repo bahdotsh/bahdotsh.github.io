@@ -1,7 +1,7 @@
 ---
 external: false
 title: "Art, Time and Life"
-description: " "
+description: "An essay on art, time and life. "
 date: 2020-12-04
 ---
 
