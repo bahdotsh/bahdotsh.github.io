@@ -2,7 +2,7 @@
 external: false
 title: "Blockchain: A short sneak peek"
 description: "A short sneak peek about blockchain"
-date: 2022-11-02
+date: 2020-07-27
 ---
 
 Blockchain is revolutionizing the Internet as we speak. From cryptographer David Chaum to Satoshi Nakamoto, a new door to fundamentally change the way Internet transactions can be implemented was opened. So, what is this blockchain and what is this revolution everybody is talking about?
