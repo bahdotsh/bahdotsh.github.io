@@ -5,10 +5,6 @@ description: "How does the blockchain work? Part 2"
 date: 2020-08-02
 ---
 
-
-### Trees
-Before looking at Merkle trees, let’s see what a tree actually is when it comes to programming. In simple terms, trees are nothing but representations of how data is stored in the memory.
-
 ![Image from hackernoon.com](https://github.com/bahdotsh/bahdotsh.github.io/blob/newblog/content/assets/b1.jpeg?raw=true)
 
 ### Trees
